@@ -1,0 +1,50 @@
+body{
+    background-color: beige;
+    background-size: cover;
+}
+
+.label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.main{
+    height: 450px;
+    width: 330px;
+    background-color: #cdedfd;
+    background-image: linear-gradient(319deg, #cdedfd 0%, #ffec82 37%, #ffcfd2 100%);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 2px black solid;
+}
+
+.display{
+    height: 4rem;
+    width: 18rem;
+    margin-top: 22px;
+    margin-left: 18px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 30px;
+}
+
+input[type="button"]{
+    margin-left: 12px;
+    height: 50px;
+    width: 65px;
+    margin-top: 15px;
+    border-radius: 12px;
+    font-size: 30px;
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+}
+
+input.clear{
+    width: 145px;
+}
+
+input.delete{
+    width: 145px;
+}
